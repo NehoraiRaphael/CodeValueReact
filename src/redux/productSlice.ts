@@ -1,6 +1,6 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 
-// Define the Product type
+
 export interface Product {
   id: number;
   name: string;
@@ -10,7 +10,7 @@ export interface Product {
   creationDate: Date;
 }
 
-// Define the initial state type
+
 export interface ProductState {
   productList: Product[];
   selectedProduct: Product | null;
@@ -18,7 +18,7 @@ export interface ProductState {
   sortOption: string;
 }
 
-// Define the initial state
+
 const initialState: ProductState = {
   productList: [
     {
@@ -67,7 +67,7 @@ const initialState: ProductState = {
   sortOption: "",
 };
 
-// Create the slice
+
 const productSlice = createSlice({
   name: 'products',
   initialState,
@@ -100,7 +100,6 @@ const productSlice = createSlice({
   },
 });
 
-// Export the actions
 export const { 
    addProduct,
    deleteProduct,
