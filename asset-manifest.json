@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/CodeValueReact/static/css/main.f855e6bc.css",
+    "main.js": "/CodeValueReact/static/js/main.7fdd20a8.js",
+    "static/js/453.5a6b9e2b.chunk.js": "/CodeValueReact/static/js/453.5a6b9e2b.chunk.js",
+    "index.html": "/CodeValueReact/index.html",
+    "main.f855e6bc.css.map": "/CodeValueReact/static/css/main.f855e6bc.css.map",
+    "main.7fdd20a8.js.map": "/CodeValueReact/static/js/main.7fdd20a8.js.map",
+    "453.5a6b9e2b.chunk.js.map": "/CodeValueReact/static/js/453.5a6b9e2b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.7fdd20a8.js"
+  ]
+}
